@@ -1,5 +1,7 @@
 # Android Package Manager
 
+> Warning! This module depends on [Node.js](https://github.com/Googlers-Repo/node) and [xh](https://github.com/Googlers-Repo/xh). Install these modules before using. You can do this via FoxMMM
+
 ## Usage
 
 ```shell

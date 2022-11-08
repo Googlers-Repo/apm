@@ -2,7 +2,8 @@
 
 # Android Package Manager
 
-> Warning! This module depends on [Node.js](https://github.com/Googlers-Repo/node) and [xh](https://github.com/Googlers-Repo/xh). Install these modules before using. You can do this via [FoxMMM](https://github.com/Fox2Code/FoxMagiskModuleManager)
+> Warning! This module depends on [Node.js](https://github.com/Googlers-Repo/node) and [xh](https://github.com/Googlers-Repo/xh). Install these modules before using. You can do this via [FoxMMM](https://github.com/Fox2Code/FoxMagiskModuleManager).
+> Add `https://dergoogler.com/api/repo/modules` to grain access of these modules.
 
 ## Usage
 

@@ -1,6 +1,0 @@
-id=androidpackagemanager
-name=Android Package Manager
-version=1.0.0
-versionCode=100
-author=Der_Googler
-description=Using an CLI to install a package from F-Droid

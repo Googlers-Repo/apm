@@ -1,0 +1,33 @@
+{
+  "name": "androidpackagemanager",
+  "version": "1.0.1",
+  "description": "Installing App from F-Droid with a native CLI",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "apm": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Googlers-Repo/apm.git"
+  },
+  "keywords": [
+    "node",
+    "root",
+    "magisk",
+    "android",
+    "shell"
+  ],
+  "author": "Der_Googler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Googlers-Repo/apm/issues"
+  },
+  "homepage": "https://github.com/Googlers-Repo/apm#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}

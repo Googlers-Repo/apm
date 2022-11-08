@@ -1,16 +1,30 @@
+[nodejs]: https://github.com/Googlers-Repo/node
+[foxmmm]: https://github.com/Fox2Code/FoxMagiskModuleManager
+
 <p  align="center"><img width="140" src="https://dergoogler.com/avatars/988e860aaaf5496c5ec1d34f41e3abec?size=420"></p>
 
 # Android Package Manager
 
-> Warning! This module depends on [Node.js](https://github.com/Googlers-Repo/node) and [xh](https://github.com/Googlers-Repo/xh). Install these modules before using. You can do this via [FoxMMM](https://github.com/Fox2Code/FoxMagiskModuleManager).
+Installing App from F-Droid with a native CLI
+
+> Warning! This module depends on [Node.js][nodejs]. Install [Node.js][nodejs] module before using it. You can do this via [FoxMMM][foxmmm].
 > Add `https://dergoogler.com/api/repo/modules` to grain access of these modules.
+
+## Install
+
+Install Node.js Magisk module first
+
+```shell
+yarn global add androidpackagemanager
+```
 
 ## Usage
 
 ```shell
+# Install latest package
+apm install com.termux
+# Install with specified version (code)
 apm install com.termux#118
-# Or just install the F-Droid package of FoxMMM
-apm add com.fox2code.mmm.fdroid#59
 ```
 
 ## Removing

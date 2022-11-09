@@ -8,7 +8,6 @@
 Installing App from F-Droid with a native CLI
 
 > Warning! This module depends on [Node.js][nodejs]. Install [Node.js][nodejs] module before using it. You can do this via [FoxMMM][foxmmm].
-> Add `https://dergoogler.com/api/repo/modules` to grain access of these modules.
 
 ## Install
 

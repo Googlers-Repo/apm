@@ -1,11 +1,11 @@
 {
   "name": "androidpackagemanager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Installing App from F-Droid with a native CLI",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "bin": {
-    "apm": "./index.js"
+    "apm": "./src/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,6 +28,11 @@
   },
   "homepage": "https://github.com/Googlers-Repo/apm#readme",
   "dependencies": {
-    "node-fetch": "^3.2.10"
+    "chalk": "^5.1.2",
+    "clear": "^0.1.0",
+    "commander": "^9.4.1",
+    "figlet": "^1.5.2",
+    "node-fetch": "^3.2.10",
+    "shelljs": "^0.8.5"
   }
 }

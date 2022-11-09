@@ -1,6 +1,6 @@
 {
   "name": "androidpackagemanager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Installing App from F-Droid with a native CLI",
   "main": "src/index.js",
   "type": "module",

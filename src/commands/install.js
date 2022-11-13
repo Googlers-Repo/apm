@@ -32,6 +32,8 @@ function install(str, opt) {
                 "pm",
                 [
                   "install",
+                  "-i",
+                  "com.google.android.packageinstaller",
                   `/data/local/tmp/${pkg.package}#${pkg.version}.apk`,
                 ],
                 {

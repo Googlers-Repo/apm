@@ -17,10 +17,10 @@ const pkg = JSON.parse(
 );
 
 // Check if pm is installed on Android
-// if (!shell.which("pm")) {
-//   console.error("Sorry, this script requires pm");
-//   shell.exit(1);
-// }
+if (!shell.which("pm")) {
+  console.error("Sorry, this script requires pm");
+  shell.exit(1);
+}
 
 program.name("apm").description(pkg.description).version(pkg.version);
 

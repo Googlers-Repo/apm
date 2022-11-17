@@ -28,6 +28,8 @@ program
   .command("install")
   .description("Installs an package from F-Droid")
   .argument("<package>", "Package to install")
+  .option("-d, --downgrade", "Allow version code downgrade")
+  .option("-r, --reinstall", "Reinstall an existing app, keeping its data")
   .option("--open", "Opens the App after installation")
   .action(install)
   .aliases(["add", "i"]);

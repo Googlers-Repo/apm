@@ -1,4 +1,5 @@
-[nodejs]: https://github.com/Googlers-Repo/node
+[nodejs]: https://github.com/Magisk-Modules-Alt-Repo/node
+[mkshrc]: https://github.com/Magisk-Modules-Alt-Repo/mkshrc
 [foxmmm]: https://github.com/Fox2Code/FoxMagiskModuleManager
 
 <p  align="center"><img width="140" src="https://dergoogler.com/avatars/988e860aaaf5496c5ec1d34f41e3abec?size=420"></p>
@@ -7,7 +8,7 @@
 
 Installing App from F-Droid with a native CLI
 
-> Warning! This module depends on [Node.js][nodejs]. Install [Node.js][nodejs] module before using it. You can do this via [FoxMMM][foxmmm].
+> Warning! This module depends on [Node.js][nodejs] and [Systemless mksh.rc][mkshrc]. Install [Node.js][nodejs] and [Systemless mksh.rc][mkshrc] module before using it. You can do this via [FoxMMM][foxmmm].
 
 ## Install
 

@@ -15,7 +15,8 @@ Installing App from F-Droid with a native CLI
 Install Node.js Magisk module first
 
 ```shell
-yarn global add androidpackagemanager
+npm install -g androidpackagemanager
+# Do not install with yarn!
 ```
 
 ## Usage

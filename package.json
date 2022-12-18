@@ -1,11 +1,11 @@
 {
   "name": "androidpackagemanager",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Installing App from F-Droid with a native CLI",
   "main": "lib/apm.js",
   "type": "module",
   "bin": {
-    "apm": "./bin/apm"
+    "apm": "bin/apm"
   },
   "scripts": {
     "start": "node src/cli.js",

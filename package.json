@@ -1,6 +1,6 @@
 {
   "name": "androidpackagemanager",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Installing App from F-Droid with a native CLI",
   "type": "module",
   "bin": {
@@ -29,10 +29,12 @@
   "dependencies": {
     "chalk": "^5.1.2",
     "clear": "^0.1.0",
+    "cli-progress": "^3.11.2",
     "commander": "^9.4.1",
     "figlet": "^1.5.2",
     "node-apk": "^1.1.1",
     "node-fetch": "^3.2.10",
+    "progress": "^2.0.3",
     "shelljs": "^0.8.5",
     "yesno": "^0.4.0"
   }

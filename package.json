@@ -1,6 +1,6 @@
 {
   "name": "androidpackagemanager",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Installing App from F-Droid with a native CLI",
   "type": "module",
   "bin": {
@@ -18,7 +18,10 @@
     "root",
     "magisk",
     "android",
-    "shell"
+    "shell",
+    "package-manager",
+    "fdroid",
+    "f-droid"
   ],
   "author": "Der_Googler",
   "license": "MIT",
